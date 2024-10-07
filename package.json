@@ -2,9 +2,13 @@
   "name": "locale-inspector",
   "displayName": "Locale Inspector",
   "description": "Helps you to find unlocalized strings in the codebase",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
-    "vscode": "^1.94.0"
+    "vscode": "^1.85.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sayusharma/locale-inspector"
   },
   "icon": "images/icon.jpg",
   "categories": [
@@ -48,7 +52,7 @@
     "@types/babel__traverse": "^7.20.6",
     "@types/mocha": "^10.0.8",
     "@types/node": "20.x",
-    "@types/vscode": "^1.94.0",
+    "@types/vscode": "^1.85.0",
     "@typescript-eslint/eslint-plugin": "^8.7.0",
     "@typescript-eslint/parser": "^8.7.0",
     "@vscode/test-cli": "^0.0.10",
